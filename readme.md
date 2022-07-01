@@ -33,9 +33,9 @@ python color_transfer.py
 Images are taken from google images
 
 <div align = "left">
-<img align = "center`" src = "images/morning.jpg" width = 300 height = 270>
-<img align = "center`" src = "images/sunset.jpg" width = 300 height = 270>
-<img align = "center`" src = "images/result.jpg" width = 300 height = 270>
+<img align = "center`" src = "images/morning.jpg" width = 250 height = 230>
+<img align = "center`" src = "images/sunset.jpg" width = 250 height = 230>
+<img align = "center`" src = "images/result.jpg" width = 250 height = 230>
 </div>
 
 ## Contributors
