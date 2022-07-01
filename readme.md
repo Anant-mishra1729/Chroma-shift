@@ -13,7 +13,7 @@ Lαβ color space is a **3-axis color system**
 * Lαβ is the most exact representation or most **natural representation** of colors just like we humans see them.
 
 This algorithm of color transfer was proposed in 
-[Color Transfer between images]("https://www.cs.tau.ac.il/~turkel/imagepapers/ColorTransfer.pdf").
+<a href="https://www.cs.tau.ac.il/~turkel/imagepapers/ColorTransfer.pdf">Color Transfer between images</a>
 
 ## Getting Started
 
@@ -41,27 +41,18 @@ python color_transfer.py
 
 ## Results
 Images are taken from google images
-
-<div align = "left">
-<img align = "center`" src = "source/evening.jpg" width = 250 height = 230>
-<img align = "center`" src = "target/colosseum.jpg" width = 250 height = 230>
-<img align = "center`" src = "result/colosseum_evening.jpg" width = 250 height = 230>
-</div>
-
-<div align = "left">
-<img align = "center`" src = "target\beach.jpg" width = 250 height = 230>
-<img align = "center`" src = "target\evening.jpg" width = 250 height = 230>
-<img align = "center`" src = "result/evening_morning.jpg" width = 250 height = 230>
-</div>
+|Source|Target|Result|
+|---|---|---|
+|<img align = "center`" src = "source/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "target/colosseum.jpg" width = 270 height = 250>|<img align = "center`" src = "result/colosseum_evening.jpg" width = 270 height = 250>|
+|<img align = "center`" src = "source/beach.jpg" width = 270 height = 250>|<img align = "center`" src = "target/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "result/evening_morning.jpg" width = 270 height = 250>|
 
 ## Contributors
 
-* [Anant Mishra]("https://github.com/Anant-mishra1729")
+<a href="https://github.com/Anant-mishra1729">Anant Mishra</a>
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
-
-* [Color Transfer between images]("https://www.cs.tau.ac.il/~turkel/imagepapers/ColorTransfer.pdf")
+<a href="https://www.cs.tau.ac.il/~turkel/imagepapers/ColorTransfer.pdf">Color Transfer between images</a>
