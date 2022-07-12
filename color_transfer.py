@@ -1,7 +1,12 @@
 import cv2
 import numpy as np
 import argparse
+from os.path import basename
 
+def resultName(source,target):
+	s = basename(source).split(".")[0] + "_"
+	t = basename(target).split(".")[0] + ".jpg"
+	return "result\\" + s + t
 
 def color_transfer(source, target):
 	source = cv2.cvtColor(source, cv2.COLOR_BGR2LAB).astype(np.float32)
@@ -33,11 +38,11 @@ if __name__ == "__main__":
 		help="Path of image on color texture is being applied",
 	)
 	parser.add_argument(
-		"--result", "-r", default="result.jpg", help="Result file name"
+		"--result", "-r", default="result\\result.jpg", help="Path of resulting image"
 	)
 	args = vars(parser.parse_args())
 
 	source = cv2.imread(args["source"])
 	target = cv2.imread(args["target"])
 	result = color_transfer(source, target)
-	cv2.imwrite(args["result"], result)
+	cv2.imwrite(resultName(args["source"],args["target"]), result)
