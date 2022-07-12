@@ -18,9 +18,9 @@ def color_transfer(source, target):
 		channel -= targetMean[i]
 		channel *= srcStd[i] / targetStd[i]
 		channel += srcMean[i]
-		res.append(np.clip(channel, 0, 255))
+		res.append(np.clip(channel, 0, 255).astype("uint8"))
 	result = cv2.merge(res)
-	return cv2.cvtColor(result.astype(np.uint8), cv2.COLOR_LAB2BGR)
+	return cv2.cvtColor(result, cv2.COLOR_LAB2BGR)
 
 
 if __name__ == "__main__":

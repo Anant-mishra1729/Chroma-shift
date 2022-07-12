@@ -43,8 +43,8 @@ python color_transfer.py
 Images are taken from google images
 |Source|Target|Result|
 |---|---|---|
-|<img align = "center`" src = "source/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "target/colosseum.jpg" width = 270 height = 250>|<img align = "center`" src = "result/colosseum_evening.jpg" width = 270 height = 250>|
-|<img align = "center`" src = "source/beach.jpg" width = 270 height = 250>|<img align = "center`" src = "target/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "result/evening_morning.jpg" width = 270 height = 250>|
+|<img align = "center`" src = "source/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "target/colosseum.jpg" width = 270 height = 250>|<img align = "center`" src = "result/evening_colosseum.jpg" width = 270 height = 250>|
+|<img align = "center`" src = "source/beach.jpg" width = 270 height = 250>|<img align = "center`" src = "target/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "result/beach_evening.jpg" width = 270 height = 250>|
 
 ## Contributors
 
