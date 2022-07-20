@@ -40,12 +40,12 @@ python color_transfer.py
 ```
 
 ## Results
-Images are taken from google images
+Source : Google images
 |Source|Target|Result|
 |---|---|---|
-|<img align = "center`" src = "source/beach.jpg" width = 270 height = 250>|<img align = "center`" src = "target/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "result/beach_evening.jpg" width = 270 height = 250>|
-|<img align = "center`" src = "source/beach.jpg" width = 270 height = 250>|<img align = "center`" src = "target/pisa.jpg" width = 270 height = 250>|<img align = "center`" src = "result/beach_pisa.jpg" width = 270 height = 250>|
-|<img align = "center`" src = "source/evening.jpg" width = 270 height = 250>|<img align = "center`" src = "target/desert.jpg" width = 270 height = 250>|<img align = "center`" src = "result/evening_desert.jpg" width = 270 height = 250>|
+|<img align = "center`" src = "source/beach.jpg" width = 280 height = 250>|<img align = "center`" src = "target/evening.jpg" width = 280 height = 250>|<img align = "center`" src = "result/beach_evening.jpg" width = 280 height = 250>|
+|<img align = "center`" src = "source/beach.jpg" width = 280 height = 250>|<img align = "center`" src = "target/taj_mahal.jpg" width = 280 height = 250>|<img align = "center`" src = "result/beach_taj_mahal.jpg" width = 280 height = 250>|
+|<img align = "center`" src = "source/evening.jpg" width = 280 height = 250>|<img align = "center`" src = "target/desert.jpg" width = 280 height = 250>|<img align = "center`" src = "result/evening_desert.jpg" width = 280 height = 250>|
 
 ## Contributors
 
