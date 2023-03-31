@@ -9,7 +9,7 @@ This Python program implements a color transfer algorithm that takes as input tw
 The Lab* (or LAB) color space is used in this color transfer algorithm as it provides a perceptually uniform color space, meaning that the distances between colors in this space correspond to human perception of color differences. The Lab* color space separates the color information into three channels: L (lightness), a (green-red axis), and b (blue-yellow axis).
 
 <div align = "center">
-<img src="https://user-images.githubusercontent.com/84588156/229015578-2ba508c7-cc74-4608-949e-85313f7bc4a4.png" width = "400"/>
+<img src="https://knowledge.ulprospector.com/media/2020/07/1.-CIELAB-Color-Space-002.jpg" width = "500"/>
 </div>
 
 ### Working
