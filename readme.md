@@ -1,19 +1,27 @@
 # Image color transfer
 
-Image color transfer is a technique of transferring color texture of one image to another image.
+This Python program implements a color transfer algorithm that takes as input two images, a source image and a target image, and **applies the color distribution of the source image to the target image.** The program uses the OpenCV library to perform color space conversion and manipulation.
 
 # Description
+The color transfer algorithm works by computing the mean and standard deviation of the color channels in the LAB color space for both the source and target images. Then, it adjusts the color channels of the target image to match the mean and standard deviation of the corresponding channels in the source image. Finally, the program converts the resulting image back to the BGR color space and saves it to a file.
 
-## Lαβ color space
-Lαβ color space is a **3-axis color system** 
 
-<img src = "lab-color-space.png" width = 400>
+```mermaid
+graph TD;
+    A[Load source image] --> B[Convert to LAB color space]
+    C[Load target image] --> D[Convert to LAB color space]
+    B -- Calculate mean and standard deviation --> E[Adjust target channels]
+    E -- Convert back to BGR color space --> F[Save result image]
+    D -- Calculate mean and standard deviation --> E
+    A --> F
+    C --> F
+```
 
-* L represents lightness and α and β for the color dimensions. .
-* Lαβ is the most exact representation or most **natural representation** of colors just like we humans see them.
+### Lab color space
+The Lab* (or LAB) color space is used in this color transfer algorithm as it provides a perceptually uniform color space, meaning that the distances between colors in this space correspond to human perception of color differences. The Lab* color space separates the color information into three channels: L (lightness), a (green-red axis), and b (blue-yellow axis).
 
-This algorithm of color transfer was proposed in 
-<a href="https://www.cs.tau.ac.il/~turkel/imagepapers/ColorTransfer.pdf">Color Transfer between images</a>
+![image](https://user-images.githubusercontent.com/84588156/229015578-2ba508c7-cc74-4608-949e-85313f7bc4a4.png)
+
 
 ## Getting Started
 
