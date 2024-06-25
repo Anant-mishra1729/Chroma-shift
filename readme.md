@@ -1,4 +1,4 @@
-# Image color transfer
+# Chroma shift
 
 This Python program implements a color transfer algorithm that takes as input two images, a source image and a target image, and **applies the color distribution of the source image to the target image.** The program uses the OpenCV library to perform color space conversion and manipulation.
 
